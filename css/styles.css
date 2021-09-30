@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("../assets/bg-mini.png");
+}
+
+.main-container{
+    width: 100%;
+    height: 100%;
+}
+
+.title-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.actions-container{
+margin: 20px;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+
+.arrow{
+    height: 80px;
+    width: 80px;
+    background-color: gray;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow > img{
+    height: 50px;
+    width: 50px;
+}
+
+.arrow:active{
+    background-color: indigo;
+}
+
+.table-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+th{
+    color: white;
+    border:1px solid black;
+    width: 150px;
+    height: 40px;
+}
+#monday-container{
+    background-color: crimson;
+}
+
+#tuesday-container{
+    background-color: rgb(213, 20, 220);
+}
+
+#wednesday-container{
+    background-color: rgb(163, 20, 220);
+}
+
+#thursday-container{
+    background-color: rgb(84, 128, 185);
+}
+
+#friday-container{
+    background-color: rgb(62, 158, 202);
+}
+
+#saturday-container{
+    background-color: rgb(12, 160, 116);
+}
+
+#sunday-container{
+    background-color: rgb(226, 155, 73);
+}
+
+td{
+    text-align: center;
+    background-color: silver;
+    border:1px solid black;
+    width: 150px;
+    height: 40px;
+}
+
+tr > td:hover{
+    background-color: gray;
+}
+
+#today-container{
+    background-color: darkcyan;
+}
